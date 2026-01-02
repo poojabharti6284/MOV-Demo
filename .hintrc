@@ -7,7 +7,8 @@
     "axe/aria": [
       "default",
       {
-        "aria-required-children": "off"
+        "aria-required-children": "off",
+        "aria-roledescription": "off"
       }
     ],
     "axe/keyboard": [

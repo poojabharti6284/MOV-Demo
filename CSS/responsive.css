@@ -1,469 +1,424 @@
-/* Medium screens (tablet) */
-@media (max-width: 1024px) {
-	.container {
-		padding: 0 16px;
-	}
+@media (max-width: 1199px) and (min-width: 992px) {
 
-	/* Hero */
-	.hero {
-		padding: 120px 0 100px 40px;
-		background-position: center right;
-	}
+  /* GLOBAL */
+  .container {
+    max-width: 1100px;
+  }
 
-	.hero-left {
-		max-width: 520px;
-	}
+  h1 { font-size: 42px; }
+  h2 { font-size: 34px; }
 
-	h1 {
-		font-size: 36px;
-	}
+  /* HERO */
+  .hero {
+    padding: 120px 40px;
+  }
 
-	h2 {
-		font-size: 34px;
-	}
+  .hero-left {
+    max-width: 560px;
+  }
 
-	/* Activity highlights / ingredient showcase */
-	.activity-highlights {
-		padding: 40px 24px;
-	}
+  /* ACTIVITY HIGHLIGHTS */
+  .activity-highlights {
+    padding: 60px 40px;
+  }
 
-	.ingredient-showcase {
-		padding: 40px 20px;
-	}
+  .section-icon {
+    width: 240px;
+    height: 210px;
+  }
 
-	.showcase {
-		gap: 28px;
-	}
+  /* INGREDIENT SHOWCASE */
+  .ingredient-showcase {
+    padding: 60px 40px;
+  }
 
-	.showcase-left .product-wrap {
-		max-width: 360px;
-	}
+  .showcase {
+    gap: 50px;
+  }
 
-	.product-wrap .bottle {
-		max-width: 360px;
-	}
+  .product-wrap .bottle {
+    max-width: 360px;
+  }
 
-	/* Recommended experts stack a bit */
-	.recommended-experts .experts-grid {
-		flex-direction: column;
-		gap: 28px;
-	}
+  /* EXPERTS */
+  .recommended-experts {
+    padding: 60px 40px;
+  }
 
-	.experts-left,
-	.experts-right {
-		width: 100%;
-	}
+  .experts-left {
+    width: 46%;
+  }
 
-	.expert-image-wrap {
-		width: 100%;
-		height: 320px;
-	}
+  .experts-right {
+    width: 50%;
+  }
 
-	/* Feel the difference */
-	.week {
-		flex-direction: column;
-		gap: 20px;
-	}
+  /* PRODUCT SHOWCASE */
+  .product-wrap-grid {
+    gap: 28px;
+  }
 
-	.circle-image {
-		width: 420px;
-		height: 420px;
-		margin: 0 auto;
-	}
+  .main-product-image {
+    height: 600px;
+  }
 
-	/* Product showcase: stack */
-	.product-wrap-grid {
-		flex-direction: column-reverse;
-		gap: 20px;
-	}
+  /* WEEK TIMELINE */
+  .week-diff {
+    padding: 60px 40px;
+  }
 
-	.main-product-image {
-		height: 480px;
-	}
+  .circle-image {
+    width: 480px;
+    height: 480px;
+  }
 
-	.thumbnail-row {
-		overflow-x: auto;
-	}
+  .week-badge {
+    width: 280px;
+  }
 
-	.thumbnail-row::-webkit-scrollbar {
-		display: none;
-	}
+  /* HSA */
+  .hsa-fsa {
+    padding: 60px 40px;
+  }
 
-	/* Pros slider */
-	.pro-card {
-		flex: 0 0 82%;
-		max-width: 820px;
-	}
-
-	/* Loved by */
-	.loved-by {
-		padding: 30px 16px;
-	}
-
-	.loved-card {
-		max-width: 320px;
-	}
-
-	.loved-nav.prev {
-		left: 8px;
-	}
-
-	.loved-nav.next {
-		right: 8px;
-	}
 }
 
-@media (max-width: 767px) {
-	:root {
-		--gutter: 16px;
-	}
-
-	/* Global body scales */
-	body {
-		font-size: 16px;
-	}
-
-	.container {
-		padding: 0 var(--gutter);
-		max-width: 100%;
-	}
-
-	/* Header */
-	.promo-bar {
-		height: auto;
-		padding: 8px 0;
-	}
-
-	.brand-bar {
-		height: 64px;
-	}
-
-	.logo {
-		font-size: 28px;
-	}
-
-	/* HERO - ensure the same image is visible and text is readable */
-	.hero {
-		padding: 56px 0 48px 0;
-		background-position: center top;
-		background-size: cover;
-		text-align: center;
-	}
-
-	.hero-left {
-		max-width: 100%;
-		margin: 0 auto;
-		padding: 0 12px;
-	}
-
-	.hero h1 {
-		font-size: 28px;
-		margin-bottom: 12px;
-	}
-
-	.hero-left p {
-		font-size: 15px;
-		max-width: 100%;
-		margin: 0 auto 16px;
-	}
-
-	.cta {
-		padding: 12px 22px;
-	}
-
-	/* Activity highlights - stack images vertically and allow horizontal swipe if many */
-	.activity-highlight {
-		flex-direction: column;
-		gap: 18px;
-	}
-
-	.activity-highlight-image {
-		justify-content: center;
-	}
-
-	.section-icon {
-		width: 180px;
-		height: 160px;
-		border-radius: 18px;
-	}
-
-	/* Ingredient showcase: product on top, ingredient list as scrollable column */
-	.ingredient-showcase {
-		padding: 28px 12px;
-	}
-
-	.showcase {
-		flex-direction: column;
-		align-items: center;
-		gap: 18px;
-	}
-
-	.product-wrap .bottle {
-		max-width: 280px;
-	}
-
-	.showcase-right ul {
-		flex-direction: row;
-		overflow-x: auto;
-		width: 100%;
-		gap: 14px;
-		padding-bottom: 12px;
-	}
-
-	.showcase-right ul::-webkit-scrollbar {
-		display: none;
-	}
-
-	.ingredient {
-		min-width: 220px;
-		flex: 0 0 auto;
-		margin-left: 0;
-		border-radius: 12px;
-		padding: 12px;
-	}
-
-	.ingredient-img {
-		width: 62px;
-	}
-
-	.ingredient-heading {
-		margin-left: 12px;
-	}
-
-	/* Recommended experts -> stack vertically */
-	.recommended-experts {
-		padding: 28px 12px;
-	}
-
-	.experts-grid {
-		flex-direction: column;
-	}
-
-	.experts-left h3 {
-		font-size: 18px;
-	}
-
-	.experts-right .expert-image img {
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-	}
-
-	/* Week timeline -> stacked narrow */
-	.week {
-		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-	}
-
-	.circle-image {
-		width: 280px;
-		height: 280px;
-	}
-
-	.week-right {
-		max-width: 100%;
-	}
-
-	.timeline-line {
-		left: 18px;
-		top: 28px;
-		bottom: 60px;
-	}
-
-	.week-badge {
-		width: auto;
-		padding: 8px 12px;
-	}
-
-	/* Product showcase - ensure the same main product image is visible on mobile
-     and thumbnails become horizontally scrollable buttons */
-	.product-showcase {
-		padding: 12px 6px 24px 6px;
-	}
-
-	.product-wrap-grid {
-		flex-direction: column;
-	}
-
-	.main-product-image {
-		height: auto;
-		max-height: 420px;
-		object-fit: contain;
-	}
-
-	.thumbnail-row {
-		display: flex;
-		gap: 10px;
-		overflow-x: auto;
-		padding: 8px 2px;
-	}
-
-	.thumbnail-row::-webkit-scrollbar {
-		display: none;
-	}
-
-	.thumb {
-		min-width: 84px;
-		height: 84px;
-	}
-
-	/* Thumbnails should visually indicate active */
-	.thumb.active {
-		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-		transform: translateY(-4px);
-	}
-
-	/* Product right side - make subscription box full width */
-	.product-right {
-		width: 100%;
-	}
-
-	.subscription-box {
-		max-width: 100%;
-	}
-
-	/* Pros slider - make single card visible and allow swipe */
-	.pros-left {
-		width: 100%;
-	}
-
-	.cards {
-		gap: 16px;
-		padding-left: 6px;
-		padding-right: 6px;
-	}
-
-	.pro-card {
-		flex: 0 0 90%;
-		max-width: 90%;
-		border-radius: 14px;
-	}
-
-	.pro-card img {
-		width: 45%;
-	}
-
-	.pro-content {
-		width: 55%;
-		padding: 18px;
-	}
-
-	.pros-nav {
-		display: none;
-	}
-
-	/* hide arrows on small to use swipe */
-
-	/* Loved by carousel - single big card, allow swipe */
-	.loved-stage {
-		padding: 0 8px;
-	}
-
-	.loved-nav {
-		display: none;
-	}
-
-	.loved-carousel {
-		gap: 16px;
-		padding-left: 6px;
-		padding-right: 6px;
-	}
-
-	.loved-card {
-		min-width: 92%;
-		max-width: 92%;
-	}
-
-	.loved-card .card-media img {
-		height: auto;
-		max-height: 360px;
-		object-fit: cover;
-	}
-
-	/* Compare and tables -> stack */
-	.compare-table {
-		display: block;
-	}
-
-	.compare-table .head,
-	.compare-table .cell {
-		text-align: left;
-		padding: 14px 10px;
-	}
-
-	/* Ready CTA */
-	.ready-cta .cta-banner {
-		padding: 36px 24px;
-		border-radius: 18px;
-		background-position: center;
-	}
-
-	.ready-cta .cta-banner .cta-content {
-		text-align: center;
-	}
-
-	.cta.cta-large {
-		display: inline-block;
-	}
-
-	.hsa-fsa {
-		padding: 30px 16px;
-	}
-
-	.cta.yellow {
-		width: 100%;
-		text-align: center;
-	}
-
-	/* General: make many text sizes smaller for mobile readability */
-	h1 {
-		font-size: 28px;
-	}
-
-	h2 {
-		font-size: 22px;
-	}
-
-	h3 {
-		font-size: 18px;
-	}
-
-	/* Ensure touch-friendly targets */
-	.thumb,
-	.dot,
-	.nav {
-		touch-action: manipulation;
-	}
-
-	.ready-cta {
-		padding: 30px 16px;
-	}
-
-	.faqs {
-		padding: 30px 16px;
-	}
-
-	.faqs-right {
-		display: none;
-	}
+@media (max-width: 991px) and (min-width: 576px) {
+
+  /* GLOBAL */
+  body {
+    font-size: 16px;
+  }
+
+  h1 { font-size: 34px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 100px 20px 80px;
+    background-position: center top;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  /* ACTIVITY HIGHLIGHTS */
+  .activity-highlight {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .highlight-text {
+    width: 100%;
+  }
+
+  .section-icon {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  /* INGREDIENT SHOWCASE */
+  .ingredient-showcase {
+    padding: 60px 20px;
+  }
+
+  .showcase {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .product-wrap .bottle {
+    max-width: 300px;
+  }
+
+  .ingredient {
+    margin-left: 0;
+  }
+
+  /* EXPERTS */
+  .experts-grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .experts-left,
+  .experts-right {
+    width: 100%;
+  }
+
+  .experts-left h3,
+  .experts-left p {
+    text-align: center;
+  }
+
+  .avatars {
+    justify-content: center;
+  }
+
+  /* PRODUCT SHOWCASE */
+  .product-wrap-grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .main-product-image {
+    height: auto;
+  }
+
+  .thumbnail-row {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* WEEK TIMELINE */
+  .week {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .circle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  .timeline-line {
+    display: none;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .week-badge {
+    width: auto;
+  }
+
+  /* HSA */
+  .hsa-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hsa-right img {
+    width: 100%;
+    height: auto;
+  }
+
 }
 
-/* Utilities: tweak scroll snapping and centering for carousels on mobile */
-@media (max-width: 767px) {
 
-	.cards,
-	.loved-carousel,
-	.thumbnail-row,
-	.showcase-right ul {
-		scroll-snap-type: x mandatory;
-		scroll-padding-left: 16px;
-	}
+@media (max-width: 575px) {
 
-	.pro-card,
-	.loved-card,
-	.thumb,
-	.ingredient {
-		scroll-snap-align: center;
-	}
+  /* ---------- GLOBAL ---------- */
+  body {
+    font-size: 16px;
+  }
+
+  h1 { font-size: 32px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 20px; }
+  h4 { font-size: 18px; }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    padding: 100px 0 60px;
+    background-position: center top;
+    text-align: left;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+  }
+
+  .features li {
+    font-size: 14px;
+  }
+
+  .cta {
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+  }
+
+  /* ---------- ACTIVITY HIGHLIGHTS ---------- */
+  .activity-highlight {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .activity-highlight-image {
+    justify-content: center;
+  }
+
+  .section-icon {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .highlight-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* ---------- INGREDIENT SHOWCASE ---------- */
+  .ingredient-showcase {
+    padding: 60px 16px;
+  }
+
+  .showcase {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product-wrap .bottle {
+    max-width: 260px;
+  }
+
+  .showcase-right ul {
+    align-items: stretch;
+  }
+
+  .ingredient {
+    margin-left: 0;
+    filter: none;
+  }
+
+  .ingredient-img {
+    width: 60px;
+  }
+
+  .ingredient-heading h3 {
+    font-size: 16px;
+  }
+
+  /* ---------- RECOMMENDED EXPERTS ---------- */
+  .recommended-experts {
+    padding: 60px 16px;
+  }
+
+  .experts-grid {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .experts-left,
+  .experts-right {
+    width: 100%;
+  }
+
+  .avatars {
+    justify-content: center;
+  }
+
+  .experts-left h3,
+  .experts-left p {
+    text-align: center;
+  }
+
+  .expert-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---------- PRODUCT SHOWCASE ---------- */
+  .product-showcase {
+    padding: 40px 16px;
+  }
+
+  .product-wrap-grid {
+    flex-direction: column;
+  }
+
+  .main-product-image {
+    height: auto;
+  }
+
+  .thumbnail-row {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .thumb {
+    width: 70px;
+    height: 70px;
+  }
+
+  .product-right {
+    width: 100%;
+  }
+
+  .product-footer {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* ---------- WEEK BY WEEK ---------- */
+  .week {
+    flex-direction: column;
+  }
+
+  .circle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .timeline-line {
+    display: none;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .week-badge {
+    width: auto;
+    text-align: left;
+  }
+
+  /* ---------- HSA / FSA ---------- */
+  .hsa-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .hsa-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hsa-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ---------- PROS MOVE ---------- */
+  .pros-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .pros-nav {
+    justify-content: center;
+  }
+
 }
