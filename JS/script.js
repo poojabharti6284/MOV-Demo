@@ -125,6 +125,8 @@
 	window.addEventListener('resize', ()=> setTimeout(()=> goTo(activeIndex), 120));
 })();
 
+
+
 /* Loved By Mövers: centered carousel with auto-snap, autoplay and active highlight */
 (function(){
 	'use strict';

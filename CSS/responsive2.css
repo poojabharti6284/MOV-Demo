@@ -9,10 +9,7 @@
 		text-align: left;
 	}
 
-
-
 	/* Hero */
-
 
 	.hero-left {
 		max-width: 520px;
@@ -159,9 +156,9 @@
 		padding: 53px 55px 60px 55px;
 	}
 
-	.thumbnail-row {
+	/* .thumbnail-row {
 		gap: 27px;
-	}
+	} */
 
 	.loved-card {
 		min-width: 40%;
@@ -176,6 +173,13 @@
 		left: 60px;
 		width: 2px;
 		height: 100px;
+	}
+}
+
+@media (max-width: 989px) {
+	.section-icon {
+		width: 222px;
+		height: 200px;
 	}
 }
 
@@ -201,7 +205,7 @@
 	}
 
 	.hero {
-		background: url("../images/79e0f11f13e087957552b1571a13121f32f3575d.jpg");
+		background: url("../images/banner2.jpg");
 		background-size: cover;
 		padding: 120px 0 100px 40px;
 		background-position: center right;
@@ -250,6 +254,18 @@
 		margin: 0 auto 24px;
 	}
 
+	button.thumb {
+		padding: 0px;
+	}
+
+	.product-left {
+		padding: 20px 20px 33px 20px;
+	}
+
+	.product-right {
+		padding: 20px 20px 30px 20px;
+	}
+
 	.circle-image {
 		width: 100%;
 		height: 100%;
@@ -281,9 +297,16 @@
 
 @media (max-width: 678px) {
 
-	    .product-wrap-grid {
-        width: 100%;
-		}
+	.product-wrap-grid {
+		width: 100%;
+	}
+
+	.section-icon {
+		width: 182px;
+		height: 190px;
+	}
+
+
 }
 
 /* Week slider: mobile-only styles */
@@ -397,16 +420,16 @@
 		display: inline;
 	}
 
-	.ingredient.active{
+	.ingredient.active {
 		gap: 10px;
 	}
 
-	.ingredient.active img{
+	/* .ingredient.active img {
 		width: 100%;
 		height: 100%;
-	}
+	} */
 
-	.ingredient-heading{
+	.ingredient-heading {
 		margin-left: 0;
 	}
 
@@ -727,19 +750,19 @@
 	}
 
 	.ingredient-img {
-		width: 62px;
+		width: 100%;
 	}
 
 	.ingredient-heading {
-		width: 55%;
+		width: 100%;
 		text-align: left;
 	}
 
-	.ingredient h3{
+	.ingredient h3 {
 		font-size: 16px;
 	}
 
-	.ingredient p{
+	.ingredient p {
 		font-size: 14px;
 	}
 
@@ -972,80 +995,80 @@
 		flex-direction: column-reverse;
 	}
 
-	 .compare-section {
-    padding: 60px 0;
-  }
+	.compare-section {
+		padding: 60px 0;
+	}
 
-  .campare-heading h2 {
-    font-size: 28px;
-  }
+	.campare-heading h2 {
+		font-size: 28px;
+	}
 
-  .campare-heading p {
-    font-size: 14px;
-    line-height: 1.4;
-  }
+	.campare-heading p {
+		font-size: 14px;
+		line-height: 1.4;
+	}
 
-  /* Enable horizontal scroll */
-  .compare {
-    overflow-x: auto;
-  }
+	/* Enable horizontal scroll */
+	.compare {
+		overflow-x: auto;
+	}
 
-  /* Table becomes wide & scrollable */
-  .compare-table {
-    grid-template-columns: 220px 140px 140px 140px;
-    min-width: 286px;
-    margin: 40px 16px;
-  }
+	/* Table becomes wide & scrollable */
+	.compare-table {
+		grid-template-columns: 220px 140px 140px 140px;
+		min-width: 286px;
+		margin: 40px 16px;
+	}
 
-  /* Header cells */
-  .head {
-    padding: 14px 10px;
-    font-size: 13px;
-  }
+	/* Header cells */
+	.head {
+		padding: 14px 10px;
+		font-size: 13px;
+	}
 
-  .head img {
-    max-width: 80px;
-    height: auto;
-  }
+	.head img {
+		max-width: 80px;
+		height: auto;
+	}
 
-  /* Label column */
-  .cell.label {
-    font-size: 13px;
-    padding: 14px 12px;
-    text-align: left;
-  }
+	/* Label column */
+	.cell.label {
+		font-size: 13px;
+		padding: 14px 12px;
+		text-align: left;
+	}
 
-  /* Data cells */
-  .cell {
-    padding: 14px 10px;
-    width: auto;
-  }
+	/* Data cells */
+	.cell {
+		padding: 14px 10px;
+		width: auto;
+	}
 
-  .cell.center svg {
-    width: 20px;
-    height: 20px;
-  }
+	.cell.center svg {
+		width: 20px;
+		height: 20px;
+	}
 
-  /* CTA button */
-  .cta.compare-btn {
-    width: 100%;
-    padding: 0 16px;
-  }
+	/* CTA button */
+	.cta.compare-btn {
+		width: 100%;
+		padding: 0 16px;
+	}
 
-  .cta.compare-btn a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 14px;
-    border-radius: 8px;
-    font-size: 15px;
-  }
+	.cta.compare-btn a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 14px;
+		border-radius: 8px;
+		font-size: 15px;
+	}
 
-  .head.label,
-  .cell.label {
-    background: #12110C;
-    z-index: 5;
-  }
+	.head.label,
+	.cell.label {
+		background: #12110C;
+		z-index: 5;
+	}
 
 }
 
