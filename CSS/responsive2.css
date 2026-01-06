@@ -352,13 +352,13 @@
 		margin-bottom: 30px;
 	}
 
-	.timeline-line {
-		left: 121px;
-		bottom: 0;
-		width: 160px;
-		top: 30px;
-		height: 2px;
-	}
+	    .timeline-line {
+        left: 108px;
+        bottom: 0;
+        width: 266px;
+        top: 0px;
+        height: 2px;
+    }
 
 	.week-slider .slides .timeline-item .content {
 		flex: 1 1 auto;
@@ -1068,7 +1068,11 @@
 	.cell.label {
 		background: #12110C;
 		z-index: 5;
-	}
+	}.product-left {
+        padding: 0px 0px 0px 0px;
+    }
+
+
 
 }
 

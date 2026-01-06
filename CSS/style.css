@@ -1,144 +1,144 @@
 @font-face {
-    font-family: 'Gotham';
-    src: url('../CSS/font-family/Gotham-BoldItalic.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-BoldItalic.woff2') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham';
+	src: url('../CSS/font-family/Gotham-BoldItalic.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-BoldItalic.woff2') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham XNarrow';
-    src: url('../CSS/font-family/GothamXNarrow-Bold.woff2') format('woff2'),
-        url('../CSS/font-family/GothamXNarrow-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('../CSS/font-family/GothamBold-Italic.woff2') format('woff2'),
-        url('../CSS/font-family/GothamBold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham XNarrow';
+	src: url('../CSS/font-family/GothamXNarrow-Bold.woff2') format('woff2'),
+		url('../CSS/font-family/GothamXNarrow-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 
 @font-face {
-    font-family: 'Gotham Book';
-    src: url('../CSS/font-family/Gotham-BookItalic.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-BookItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham';
+	src: url('../CSS/font-family/GothamBold-Italic.woff2') format('woff2'),
+		url('../CSS/font-family/GothamBold-Italic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
 }
 
 
 @font-face {
-    font-family: 'Gotham Extra';
-    src: url('../CSS/font-family/Gotham-ExtraLight.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gotham Extra';
-    src: url('../CSS/font-family/Gotham-ExtraLightItalic.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-
-
-@font-face {
-    font-family: 'Gotham XNarrow';
-    src: url('../CSS/font-family/Gotham-BoldItalic.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham Book';
+	src: url('../CSS/font-family/Gotham-BookItalic.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-BookItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
 }
 
 
 @font-face {
-    font-family: 'Gotham';
-    src: url('../CSS/font-family/Gotham-Light.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'Gotham Extra';
+	src: url('../CSS/font-family/Gotham-ExtraLight.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Extra';
+	src: url('../CSS/font-family/Gotham-ExtraLightItalic.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-ExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
 }
 
 
 
 @font-face {
-    font-family: 'Gotham';
-    src: url('../CSS/font-family/Gotham-Medium.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham XNarrow';
+	src: url('../CSS/font-family/Gotham-BoldItalic.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../CSS/font-family/Gotham-Light.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../CSS/font-family/Gotham-Medium.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham XNarrow';
-    src: url('../CSS/font-family/GothamXNarrow-Medium.woff2') format('woff2'),
-        url('../CSS/font-family/GothamXNarrow-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'Gotham XNarrow';
+	src: url('../CSS/font-family/GothamXNarrow-Medium.woff2') format('woff2'),
+		url('../CSS/font-family/GothamXNarrow-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham';
-    src: url('../CSS/font-family/GothamLight-Italic.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham';
+	src: url('../CSS/font-family/GothamLight-Italic.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Narrow Book';
-    src: url('../CSS/font-family/GothamXNarrow-Book.woff2') format('woff2'),
-        url('../CSS/font-family/GothamXNarrow-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'Gotham Narrow Book';
+	src: url('../CSS/font-family/GothamXNarrow-Book.woff2') format('woff2'),
+		url('../CSS/font-family/GothamXNarrow-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Narrow';
-    src: url('../CSS/font-family/GothamNarrow-BlackItalic.woff2') format('woff2'),
-        url('../CSS/font-family/GothamNarrow-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham Narrow';
+	src: url('../CSS/font-family/GothamNarrow-BlackItalic.woff2') format('woff2'),
+		url('../CSS/font-family/GothamNarrow-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Narrow';
-    src: url('../CSS/font-family/GothamNarrow-Black.woff2') format('woff2'),
-        url('../CSS/font-family/GothamNarrow-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'Gotham Narrow';
+	src: url('../CSS/font-family/GothamNarrow-Black.woff2') format('woff2'),
+		url('../CSS/font-family/GothamNarrow-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Narrow Book';
-    src: url('../CSS/font-family/Gotham-BookItalic.woff2') format('woff2'),
-        url('../CSS/font-family/Gotham-BoldItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+	font-family: 'Gotham Narrow Book';
+	src: url('../CSS/font-family/Gotham-BookItalic.woff2') format('woff2'),
+		url('../CSS/font-family/Gotham-BoldItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
 }
 
 
@@ -297,8 +297,8 @@ h5 {
 }
 
 .feature-list {
-    display: flex;
-    gap: 10px;
+	display: flex;
+	gap: 10px;
 }
 
 .features li {
@@ -363,7 +363,7 @@ h5 {
 /* activity-highlights start */
 
 .section-icon {
-	width: 263px;
+	width: 257px;
 	height: 247px;
 	border-radius: 50px;
 	object-fit: cover;
@@ -389,10 +389,11 @@ h5 {
 .highlight-text {
 	color: #fff;
 	width: 370px;
+	padding-top: 50px;
 }
 
 .highlight-text p {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .activity-highlights {
@@ -443,6 +444,7 @@ h5 {
 	height: auto;
 	filter: drop-shadow(0 80px 120px #000000b3);
 }
+
 /* 
 .product-wrap::after {
 	content: '';
@@ -472,7 +474,7 @@ h5 {
 	align-items: center;
 	color: #ffffffe6;
 	margin-left: 18px;
-	filter: grayscale(70%) brightness(0.55);
+	filter: grayscale(70%) brightness(0.15);
 }
 
 .ingredient-img {
@@ -727,14 +729,14 @@ h5 {
 
 .timeline-line {
 	position: absolute;
-    left: 0px;
-    bottom: 0;
-    top: 88px;
-    right: 0;
-    margin: auto;
-    width: 2px;
-    height: 101px;
-    background: #ffffff33;
+	left: 0px;
+	bottom: 0;
+	top: 88px;
+	right: 0;
+	margin: auto;
+	width: 2px;
+	height: 101px;
+	background: #ffffff33;
 }
 
 
@@ -761,11 +763,11 @@ h5 {
 }
 
 .product-left {
-    padding: 20px 0 33px 20px;
+	padding: 20px 0 33px 20px;
 }
 
 .product-right {
-    padding: 20px 62px 30px 0;
+	padding: 20px 62px 30px 0;
 }
 
 
@@ -826,6 +828,8 @@ h5 {
 }
 
 
+
+
 .product-meta .rating {
 	color: #12110C;
 	font-family: Nunito;
@@ -836,11 +840,11 @@ h5 {
 }
 
 .product-meta p {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .product-meta h3 {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 .product-title h3 {
@@ -873,6 +877,18 @@ h5 {
 
 .product-benefits li:not(:last-child) {
 	margin-bottom: 15px;
+}
+
+button.faq-question.header {
+	color: black;
+}
+
+span.toggle.plus {
+	color: black;
+}
+
+#faq4 {
+	color: black;
 }
 
 .subscription-box {
@@ -912,7 +928,7 @@ h5 {
 	background: #1a1a6b;
 	border-radius: 50%;
 	position: absolute;
-	top: 25%;
+	top: 24%;
 	left: 25%;
 }
 
@@ -1018,14 +1034,14 @@ h5 {
 }
 
 .line p {
-    margin: 15px 0;
+	margin: 15px 0;
 }
 
 .cta.full {
 	background: #211161;
 	color: #fff;
 	width: 100%;
-	margin: 30px 0;
+	margin-top: 20px;
 }
 
 hr {
@@ -1063,7 +1079,6 @@ hr {
 	gap: 90px;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0;
 }
 
 .hsa-right img {
@@ -1202,8 +1217,8 @@ hr {
 }
 
 .cards {
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
 }
 
 .cards::-webkit-scrollbar {
@@ -1424,8 +1439,8 @@ hr {
 }
 
 .guarantee {
-    display: flex;
-    gap: 8px;
+	display: flex;
+	gap: 8px;
 	margin-right: 30px;
 }
 
@@ -1449,7 +1464,6 @@ hr {
 
 .loved-head {
 	text-align: center;
-	margin-bottom: 36px;
 	padding: 62px 0px;
 }
 
@@ -1666,7 +1680,7 @@ hr {
 }
 
 .faq-item.para p {
-    padding-top: 25px;
+	padding-top: 25px;
 }
 
 
@@ -1746,7 +1760,7 @@ hr {
 .faqs-left .cta.yellow {
 	font-size: 18px;
 	margin-top: 17px;
-    padding: 12px 36px;
+	padding: 12px 36px;
 }
 
 /* faq-section end */
@@ -1777,3 +1791,36 @@ footer.footer-section {
 }
 
 /* footer section end */
+
+/* Accordion Styles for Supplements Facts & How to Use */
+
+
+
+.accordion-header {
+	cursor: pointer;
+	flex-wrap: wrap;
+	/* NEW: allow wrapping */
+}
+
+.accordion-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
+	padding-left: 0;
+	color: #444;
+	/* Consistent with other text */
+	width: 100%;
+	/* NEW: force full width */
+	flex-basis: 100%;
+	/* NEW: break line in flex container */
+}
+
+.accordion-content p {
+	margin: 0 0 15px 0;
+	line-height: 1.5;
+}
+
+/* Hide vertical line when active (turns + into -) */
+.accordion-header.active .accordion-icon .vertical-line {
+	display: none;
+}

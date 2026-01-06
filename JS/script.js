@@ -93,7 +93,6 @@
 		return best;
 	}
 
-	// create dots
 	cards.forEach((c,i)=>{
 		const b = document.createElement('button');
 		b.className = 'dot';
@@ -102,7 +101,6 @@
 		dotsContainer.appendChild(b);
 	});
 
-	// scroll settle
 	let scrollTimer = null;
 	carousel.addEventListener('scroll', ()=>{
 		clearTimeout(scrollTimer);
@@ -112,19 +110,14 @@
 	prev.addEventListener('click', ()=> goTo(activeIndex - 1));
 	next.addEventListener('click', ()=> goTo(activeIndex + 1));
 
-	// keyboard navigation
 	prev.addEventListener('keydown', (e)=> { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); goTo(activeIndex - 1); } });
 	next.addEventListener('keydown', (e)=> { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); goTo(activeIndex + 1); } });
 
-	// init
 	updateActive();
-	// center first card on load
 	setTimeout(()=> goTo(activeIndex), 80);
 
-	// adjust on resize
 	window.addEventListener('resize', ()=> setTimeout(()=> goTo(activeIndex), 120));
 })();
-
 
 
 /* Loved By Mövers: centered carousel with auto-snap, autoplay and active highlight */
@@ -185,7 +178,7 @@
 	window.addEventListener('resize', ()=> setTimeout(()=> goTo(activeIndex), 120));
 
 	// Autoplay
-	const AUTOPLAY_DELAY = 3500; // ms
+	const AUTOPLAY_DELAY = 3500;
 	let autoplayTimer = null;
 	function startAutoplay(){
 		stopAutoplay();
@@ -243,6 +236,7 @@
 		});
 	});
 })();
+
 
 /* Subscription dropdown (product-right) */
 (function(){
